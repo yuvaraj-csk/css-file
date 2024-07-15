@@ -868,3 +868,10 @@
   </body>
 </html>
 ```
+# output
+![contact page](https://github.com/user-attachments/assets/3c07d2fc-e414-4cad-87d6-17503e17e605)
+![people page](https://github.com/user-attachments/assets/e032fbac-ba8a-4a82-8ee6-93937f9e96a0)
+![product page](https://github.com/user-attachments/assets/f1f8dcf3-02b3-413d-addc-baa70b285b93)
+![home page](https://github.com/user-attachments/assets/ebf4f6c4-dc81-4edd-bd0e-487e9cc7f7d1)
+
+
