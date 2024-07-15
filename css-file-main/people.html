@@ -1,0 +1,187 @@
+# people.html
+```
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>people page</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .banner {
+        width: 100%;
+        height: 95vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ),
+          url('/static/background.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .bg-people {
+        border: 1px;
+        padding: 10px;
+        color: white;
+        background-color: #00d5ff;
+        border-radius: 30px;
+      }
+      .logo {
+        color: #0b13fb;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 3px;
+      }
+      span {
+        color: white;
+      }
+      form {
+        width: 300px;
+        height: 40px;
+        display: flex;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1px 1px;
+        font-size: 15px;
+        border-radius: 10px;
+        backdrop-filter: blur(4px) saturate(180%);
+      }
+      form input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 12px 20px;
+        font-size: 15px;
+        color: white;
+      }
+      ::placeholder {
+        color: white;
+      }
+      form button {
+        border: 0;
+        outline: none;
+        padding: 5px 20px;
+        color: white;
+        border-radius: 10px;
+        background: #00d5ff;
+        cursor: pointer;
+      }
+      .navbar li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+      }
+      .navbar li:hover {
+        border: 1px;
+        padding: 10px;
+
+        transition: 0.5s;
+        cursor: pointer;
+        border-radius: 30px;
+        background: #0ef;
+        color: #081b29;
+        box-shadow: 0 0 20px #0ef;
+      }
+      .image {
+        position: relative;
+        border: 0;
+        top: 150px;
+
+        background: transparent;
+      }
+      .image table {
+        border: 0;
+        color: white;
+        position: relative;
+        left: 200px;
+      }
+      .image table img {
+        height: 140px;
+        width: 140px;
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 50%;
+      }
+      .image table td {
+        color: #00d5ff;
+      }
+      footer {
+        border: 1px;
+        padding: 10px;
+
+        transition: 0.5s;
+        cursor: pointer;
+        border-radius: 30px;
+        background: #0ef;
+        color: #081b29;
+        box-shadow: 0 0 20px #0ef;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <br />
+      <div class="navbar">
+        <h1 class="logo">L<span>EARN</span>C<span>RAZE</span></h1>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="people.html"  class="bg-people">People</a></li>
+          <li><a href="contacts.html"> Contacts </a></li>
+        </ul>
+        <form action="" method="get">
+          <input type="text" placeholder="Enter to Search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div class="image">
+        <table cellspacing="20">
+          <tr align="center">
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjLO9GJgJ-ZtK_i-C_12IswFWpfNEw4ygycg&s" /></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFj_7asxijTyYWjMpC2JIyjf8Drt3EwzokQ&s" /></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc3yzXGWOzSuDibM5xkF5V5b1LephwF9Bdg&s" /></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6tz0HBNbebwB-C3bG4lG7fwoF2jOLIOrAOg&s" /></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QxDlkbf95OX-SGFfcc21w2MH9FueTBGNMw&s" /></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe4x30q7chs1edJb43YDmNnUNBXb7qdxYxA&s" /></td>
+          </tr>
+          <tr align="center">
+            <th>Assistant Professor</th>
+            <th>Dean</th>
+            <th>Head of Department</th>
+            <th>Principal</th>
+            <th>Director</th>
+            <th>chancellor</th>
+          </tr>
+          <tr align="center">
+            <td>cricket player</td>
+            <td>politician</td>
+            <td>cricket player</td>
+            <td>chess player</td>
+            <td>Actor</td>
+            <td>Doctor</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <center>Designed and Developed by YUVARAJ B (212221040187)</center>
+    </footer>
+  </body>
+</html>
+```
